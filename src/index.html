@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IDP</title>
+
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/Task.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+        <div class="IDP__Container">
+
+          <div class="go-top">
+          </div>
+
+          <div id="myModal" class="modal">
+            <div class="modal-content" id="a1"> <span class="close">&#215;</span>
+              <input type="text" class="Register__Event" placeholder="Enter your email id here...">
+              <button class="Book__Event">Submit</button>
+            </div>
+            
+          </div>
+         
+
+            <!-- Navbar Code -->
+
+            <div class="IDP__nav">
+                <input type="checkbox" id="IDP__navcheck">
+                <div class="IDP__navheader">
+                  <div class="IDP__navtitle">
+                    <img src="images/pgs_dslogo.svg">
+                  </div>
+                </div>
+                <div class="IDP__navbtn">
+                  <label for="IDP__navcheck">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </label>
+                </div>
+                
+                <div class="IDP__navlinks">
+                    <div class="IDP__dropdown">
+                        <button class="IDP__dropbtn">Master 
+                        </button>
+                        <div class="IDP__dropdowncontent">
+                          <a href="#">Master 1</a>
+                          
+                        </div>
+                      </div> 
+                  <a href="#">PhD</a>
+                  <a href="#">PGcert</a>
+                  <a href="#">PGDip</a>
+                  <a href="#">MBA</a>
+                  <a href="#">PGCE</a>
+                  <span class="IDP_Separator"></span>
+                  <a href="#">Funding</a>
+                  <a href="#">Open days</a>
+                  <a href="#">Advice</a>
+                  <a href="#">Review</a>
+                  <span class="IDP_Separator"></span>
+                  <a href="#">Login / Signup</a>
+
+                  <div class="IDP__Search">
+                    <img src="images/search_icon.svg" />
+                    <input type="text" class="Search__IDP" placeholder="Search here..."/>
+                  </div>
+
+                </div>
+            </div>
+
+            <!-- Notification Code -->
+
+            <div class="IDP__NotificationBar">
+                <div class="Covid__Notify">Coronavirus (COVID-19) Latest news <img src="images/covid_wht_arw.svg"/></div>
+            </div>
+
+            <!-- Heading Container Code -->
+            <div class="IDP__SectionContainer">
+                <div class="IDP__SectionHead">
+
+                    <!-- Breadcrumb Code -->
+
+                    <div class="IDP__BreadcrumbContainer">
+                        <div class="BreadcrumbWrap">
+                            <span class="fa fa-home"></span>
+                            <span class="Breadcrumb__Separator">/</span>
+                            <p class="Breadcrumb__Home">Open Days</p>
+                        </div>
+                    </div>
+
+                    <!-- Heading Code -->
+
+                    <div class="IDP__PageHeading">
+                      <h1 class="Openday__Head">Postgraduate open days & virtual events</h1>
+                      <p class="OpenHead_Para">Interested in a particular university? Search and book on to upcoming postgraduate open days and virtual events by using the search and drop down tools below.</p>
+                    </div>
+
+                    <!-- Selection Container Code -->
+
+                    <div class="Selection__Container">
+                      <input type="text" class="Name__Selection" placeholder="Enter university name" />
+                      <select class="TimeSlot__Wrap Selector__Common">
+                        <option value="When">When</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                      </select>
+                      <select class="Location__Wrap Selector__Common">
+                        <option value="Location">Location</option>
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                      </select>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Banner Code -->
+
+            <div class="IDP__BannerContainer">
+              <div class="IDP__BannerWrap">
+                <h3 class="Banner__status">University of Hertfordshire</h3>
+
+                <div class="Event__DetailsContainer">
+                  <div class="Event__DetailsWrap">
+                    <div class="Event__DetailsDate">
+                      <p>MON</p>
+                      <p>7</p>
+                      <p>MAR</p>
+                    </div>
+                    <div class="Event__DetailsLogo">
+                      <img src="images/myhc_285250.jpg"/>
+                    </div>
+                    <div class="Event__DetailsPara">
+                      <h4>University of Hertfordshire</h4>
+                      <div class="PinLocation">
+                        <img src="images/newopd_loc_pin_icn.svg"/>
+                        <span>University of Hertfordshire</span>
+                      </div>
+                      <p class="Event__Content">
+                        University of Hertfordshire postgraduate open day event Monday 7 March - 
+                        Friday 11 March Thinking of studying for a postgraduate degree at the University of Hertfordshire? 
+                        Let's Talk Postgrad is your chance to chat with our friendly academics, giving you the chance to ask
+                        questions about our courses to help you make the right choice for your postgraduate studies.
+                      </p>
+                    </div>
+                    <div class="Event__DetailsButton">
+                      <button type="button" class="Book__Event myBtn" id="IDP__Modal" data-bid="a1">BOOK EVENT</button>
+                      
+                    </div>
+                  </div>
+
+                  <div class="Event__DetailsWrap">
+                    <div class="Event__DetailsDate">
+                      <p>MON</p>
+                      <p>7</p>
+                      <p>MAR</p>
+                    </div>
+                    <div class="Event__DetailsLogo">
+                      <img src="images/myhc_285250.jpg"/>
+                    </div>
+                    <div class="Event__DetailsPara">
+                      <h4>University of Hertfordshire</h4>
+                      <div class="PinLocation">
+                        <img src="images/newopd_loc_pin_icn.svg"/>
+                        <span>University of Hertfordshire</span>
+                      </div>
+                      <p class="Event__Content">
+                        University of Hertfordshire postgraduate open day event Monday 7 March - 
+                        Friday 11 March Thinking of studying for a postgraduate degree at the University of Hertfordshire? 
+                        Let's Talk Postgrad is your chance to chat with our friendly academics, giving you the chance to ask
+                        questions about our courses to help you make the right choice for your postgraduate studies.
+                      </p>
+                    </div>
+                    <div class="Event__DetailsButton">
+                      <button type="button" class="Book__Event myBtn" id="IDP__Modal" data-bid="a1">BOOK EVENT</button>
+                    </div>
+                  </div>
+
+                  <div class="Event__DetailsWrap">
+                    <div class="Event__DetailsDate">
+                      <p>MON</p>
+                      <p>7</p>
+                      <p>MAR</p>
+                    </div>
+                    <div class="Event__DetailsLogo">
+                      <img src="images/myhc_285250.jpg"/>
+                    </div>
+                    <div class="Event__DetailsPara">
+                      <h4>University of Hertfordshire</h4>
+                      <div class="PinLocation">
+                        <img src="images/newopd_loc_pin_icn.svg"/>
+                        <span>University of Hertfordshire</span>
+                      </div>
+                      <p class="Event__Content">
+                        University of Hertfordshire postgraduate open day event Monday 7 March - 
+                        Friday 11 March Thinking of studying for a postgraduate degree at the University of Hertfordshire? 
+                        Let's Talk Postgrad is your chance to chat with our friendly academics, giving you the chance to ask
+                        questions about our courses to help you make the right choice for your postgraduate studies.
+                      </p>
+                    </div>
+                    <div class="Event__DetailsButton">
+                      <button type="button" class="Book__Event myBtn" id="IDP__Modal" data-bid="a1">BOOK EVENT</button>
+                      
+                    </div>
+                  </div>
+
+                  <div class="Event__DetailsWrap">
+                    <div class="Event__DetailsDate">
+                      <p>MON</p>
+                      <p>7</p>
+                      <p>MAR</p>
+                    </div>
+                    <div class="Event__DetailsLogo">
+                      <img src="images/myhc_285250.jpg"/>
+                    </div>
+                    <div class="Event__DetailsPara">
+                      <h4>University of Hertfordshire</h4>
+                      <div class="PinLocation">
+                        <img src="images/newopd_loc_pin_icn.svg"/>
+                        <span>University of Hertfordshire</span>
+                      </div>
+                      <p class="Event__Content">
+                        University of Hertfordshire postgraduate open day event Monday 7 March - 
+                        Friday 11 March Thinking of studying for a postgraduate degree at the University of Hertfordshire? 
+                        Let's Talk Postgrad is your chance to chat with our friendly academics, giving you the chance to ask
+                        questions about our courses to help you make the right choice for your postgraduate studies.
+                      </p>
+                    </div>
+                    <div class="Event__DetailsButton">
+                      <button type="button" class="Book__Event myBtn" id="IDP__Modal" data-bid="a1">BOOK EVENT</button>
+                    </div>
+                  </div>
+
+                  <div class="Event__DetailsWrap">
+                    <div class="Event__DetailsDate">
+                      <p>MON</p>
+                      <p>7</p>
+                      <p>MAR</p>
+                    </div>
+                    <div class="Event__DetailsLogo">
+                      <img src="images/myhc_285250.jpg"/>
+                    </div>
+                    <div class="Event__DetailsPara">
+                      <h4>University of Hertfordshire</h4>
+                      <div class="PinLocation">
+                        <img src="images/newopd_loc_pin_icn.svg"/>
+                        <span>University of Hertfordshire</span>
+                      </div>
+                      <p class="Event__Content">
+                        University of Hertfordshire postgraduate open day event Monday 7 March - 
+                        Friday 11 March Thinking of studying for a postgraduate degree at the University of Hertfordshire? 
+                        Let's Talk Postgrad is your chance to chat with our friendly academics, giving you the chance to ask
+                        questions about our courses to help you make the right choice for your postgraduate studies.
+                      </p>
+                    </div>
+                    <div class="Event__DetailsButton">
+                      <button type="button" class="Book__Event myBtn" id="IDP__Modal" data-bid="a1">BOOK EVENT</button>
+                    </div>
+                  </div>
+
+                  <div class="Event__DetailsWrap">
+                    <div class="Event__DetailsDate">
+                      <p>MON</p>
+                      <p>7</p>
+                      <p>MAR</p>
+                    </div>
+                    <div class="Event__DetailsLogo">
+                      <img src="images/myhc_285250.jpg"/>
+                    </div>
+                    <div class="Event__DetailsPara">
+                      <h4>University of Hertfordshire</h4>
+                      <div class="PinLocation">
+                        <img src="images/newopd_loc_pin_icn.svg"/>
+                        <span>University of Hertfordshire</span>
+                      </div>
+                      <p class="Event__Content">
+                        University of Hertfordshire postgraduate open day event Monday 7 March - 
+                        Friday 11 March Thinking of studying for a postgraduate degree at the University of Hertfordshire? 
+                        Let's Talk Postgrad is your chance to chat with our friendly academics, giving you the chance to ask
+                        questions about our courses to help you make the right choice for your postgraduate studies.
+                      </p>
+                    </div>
+                    <div class="Event__DetailsButton">
+                      <button type="button" class="Book__Event myBtn" id="IDP__Modal" data-bid="a1" >BOOK EVENT</button>
+                    </div>
+                  </div>
+
+                  <div class="Event__DetailsWrap">
+                    <div class="Event__DetailsDate">
+                      <p>MON</p>
+                      <p>7</p>
+                      <p>MAR</p>
+                    </div>
+                    <div class="Event__DetailsLogo">
+                      <img src="images/myhc_285250.jpg"/>
+                    </div>
+                    <div class="Event__DetailsPara">
+                      <h4>University of Hertfordshire</h4>
+                      <div class="PinLocation">
+                        <img src="images/newopd_loc_pin_icn.svg"/>
+                        <span>University of Hertfordshire</span>
+                      </div>
+                      <p class="Event__Content">
+                        University of Hertfordshire postgraduate open day event Monday 7 March - 
+                        Friday 11 March Thinking of studying for a postgraduate degree at the University of Hertfordshire? 
+                        Let's Talk Postgrad is your chance to chat with our friendly academics, giving you the chance to ask
+                        questions about our courses to help you make the right choice for your postgraduate studies.
+                      </p>
+                    </div>
+                    <div class="Event__DetailsButton">
+                      <button type="button" class="Book__Event myBtn" id="IDP__Modal" data-bid="a1">BOOK EVENT</button>
+                    </div>
+                  </div>
+
+                  <div class="Event__DetailsWrap">
+                    <div class="Event__DetailsDate">
+                      <p>MON</p>
+                      <p>7</p>
+                      <p>MAR</p>
+                    </div>
+                    <div class="Event__DetailsLogo">
+                      <img src="images/myhc_285250.jpg"/>
+                    </div>
+                    <div class="Event__DetailsPara">
+                      <h4>University of Hertfordshire</h4>
+                      <div class="PinLocation">
+                        <img src="images/newopd_loc_pin_icn.svg"/>
+                        <span>University of Hertfordshire</span>
+                      </div>
+                      <p class="Event__Content">
+                        University of Hertfordshire postgraduate open day event Monday 7 March - 
+                        Friday 11 March Thinking of studying for a postgraduate degree at the University of Hertfordshire? 
+                        Let's Talk Postgrad is your chance to chat with our friendly academics, giving you the chance to ask
+                        questions about our courses to help you make the right choice for your postgraduate studies.
+                      </p>
+                    </div>
+                    <div class="Event__DetailsButton">
+                      <button type="button" class="Book__Event myBtn" id="IDP__Modal" data-bid="a1">BOOK EVENT</button>
+                    </div>
+                  </div>
+
+                  <div class="Event__DetailsWrap">
+                    <div class="Event__DetailsDate">
+                      <p>MON</p>
+                      <p>7</p>
+                      <p>MAR</p>
+                    </div>
+                    <div class="Event__DetailsLogo">
+                      <img src="images/myhc_285250.jpg"/>
+                    </div>
+                    <div class="Event__DetailsPara">
+                      <h4>University of Hertfordshire</h4>
+                      <div class="PinLocation">
+                        <img src="images/newopd_loc_pin_icn.svg"/>
+                        <span>University of Hertfordshire</span>
+                      </div>
+                      <p class="Event__Content">
+                        University of Hertfordshire postgraduate open day event Monday 7 March - 
+                        Friday 11 March Thinking of studying for a postgraduate degree at the University of Hertfordshire? 
+                        Let's Talk Postgrad is your chance to chat with our friendly academics, giving you the chance to ask
+                        questions about our courses to help you make the right choice for your postgraduate studies.
+                      </p>
+                    </div>
+                    <div class="Event__DetailsButton">
+                      <button type="button" class="Book__Event myBtn" id="IDP__Modal" data-bid="a1">BOOK EVENT</button>
+                    </div>
+                  </div>
+
+                  <div class="Event__DetailsWrap">
+                    <div class="Event__DetailsDate">
+                      <p>MON</p>
+                      <p>7</p>
+                      <p>MAR</p>
+                    </div>
+                    <div class="Event__DetailsLogo">
+                      <img src="images/myhc_285250.jpg"/>
+                    </div>
+                    <div class="Event__DetailsPara">
+                      <h4>University of Hertfordshire</h4>
+                      <div class="PinLocation">
+                        <img src="images/newopd_loc_pin_icn.svg"/>
+                        <span>University of Hertfordshire</span>
+                      </div>
+                      <p class="Event__Content">
+                        University of Hertfordshire postgraduate open day event Monday 7 March - 
+                        Friday 11 March Thinking of studying for a postgraduate degree at the University of Hertfordshire? 
+                        Let's Talk Postgrad is your chance to chat with our friendly academics, giving you the chance to ask
+                        questions about our courses to help you make the right choice for your postgraduate studies.
+                      </p>
+                    </div>
+                    <div class="Event__DetailsButton">
+                      <button type="button" class="Book__Event myBtn" id="IDP__Modal" data-bid="a1">BOOK EVENT</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <!-- Pagination Code -->
+
+
+            <div class="IDP__Pagination">
+              <div class="IDPpagination">
+                <a href="#"><span class="fa fa-arrow-circle-o-left"></span></a>
+                <a href="#">1</a>
+                <a href="#" class="active">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">...</a>
+                <a href="#">25</a>
+                <a href="#"><span class="fa fa-arrow-circle-o-right"></span></a>
+              </div>
+
+              <div class="Overall__Pagination">1-18 of 300 Courses</div>
+
+
+            </div>
+
+
+            <!-- Footer Section Code -->
+
+            <div class="IDP__FooterContainer">
+              <div class="IDP__FooterWrap">
+                <div class="Footer__Wrap">
+                  <div class="Footer__Head">Site links</div>
+                  <a href="#">About us</a>
+                  <a href="#">Terms & Conditions</a>
+                  <a href="#">Privacy Notice</a>
+                  <a href="#">Advertise</a>
+                  <a href="#">Cookies policy</a>
+                  <a href="#">Contact</a>
+                </div>
+
+
+                <div class="Footer__Wrap">
+                  <div class="Footer__Head">Browse</div>
+                  <a href="#">View all subjects</a>
+                  <a href="#">Search universities</a>
+                  <a href="#">More qualifications</a>
+                  <a href="#">University prospectuses</a>
+                  <a href="#">Open days</a>
+                  <a href="#">Write a review</a>
+                </div>
+
+
+                <div class="Footer__Wrap">
+                  <div class="Footer__Head">Connect</div>
+                  <a href="#"><span class="fa fa-facebook"></span></a>
+                  <a href="#"><span class="fa fa-twitter"></span></a>
+                  <a href="#"><span class="fa fa-youtube-play"></span></a>
+                  
+                </div>
+
+              </div>
+
+              <div class="IDP__Copyright">
+                <span class="fa fa-copyright"></span>
+                <p class="CopyrightText">IDP Connect 2022</p>
+              </div>
+            </div>
+
+
+
+        </div>
+<script>
+$(document).on('click','.myBtn',function(){
+	var myTargetModal = '#' + $(this).data('bid');
+	$('#myModal').hide();
+	$('.modal-content').hide();
+	
+	$('#myModal').fadeIn();
+	$(myTargetModal).fadeIn();
+});
+
+$("body" ).on( "click",".close", function() {
+  	$('#myModal').hide();
+	$('.modal-content').hide();
+});
+
+$(function(){
+
+//Scroll event
+$(window).scroll(function(){
+  var scrolled = $(window).scrollTop();
+  if (scrolled > 500) $('.go-top').fadeIn('slow');
+  if (scrolled < 500) $('.go-top').fadeOut('slow');
+});
+
+//Click event
+$('.go-top').click(function () {
+  $("html, body").animate({ scrollTop: "0" },  500);
+});
+
+});
+
+</script>
+</body>
+</html>
+
+
+
+
+
